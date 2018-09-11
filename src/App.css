@@ -1,0 +1,32 @@
+.App {
+  border: 1px solid black;
+  height: 500px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: ghostwhite;
+}
+
+.child-component {
+  border: 1px solid red;
+  width: 40%;
+  height: 100px;
+  margin: 70px;
+  padding: 10px;
+  top: 200px;
+  position: absolute;
+  background-color: aliceblue;
+}
+
+.other-component {
+  border: 1px solid red;
+  width: 40%;
+  height: 100px;
+  transform: translate3d(-50%, -50%, 0);
+  position: absolute;
+  top: 259px;
+  left: 70%;
+  padding: 10px;
+  margin: 70px;
+  background-color: floralwhite;
+}
